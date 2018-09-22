@@ -48,7 +48,7 @@ const PORT = parseInt(process.argv[2]) || parseInt(process.env.APP_PORT) || 3000
 app.listen (PORT, () => {
     console.info(`Application started on port ${PORT} at ${new Date()}`);
 
-    // console.info('\trunning directory is ',__dirname);
+    console.info('\trunning directory is ',__dirname);
     // console.info('\tpublic directory is ', path.join(__dirname, 'public'));
     // console.info(path.join(__dirname,''));
     });
